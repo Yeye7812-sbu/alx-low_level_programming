@@ -10,4 +10,6 @@ File 4-puts.c contains a C program that prints exactly "Programming is like buil
 
 File 5-printf.c contains a C program that prints exactly "with proper grammar, but the outcome is a piece of art,", followed by a new line
 
+File 6-size.c contains a C program that prints the size of various types on the computer it is compiled and run on
+
 
