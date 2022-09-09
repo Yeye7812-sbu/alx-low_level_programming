@@ -2,31 +2,36 @@
 
 /**
  * main - Entry point
- * Description: Print numbers from 0 to 99.
- * Only use `putchar` up to 5 times.
+ * Description: Print all possible combinations of two two-digit numbers
+ * Only use `putchar` up to 8 times
  * Not allowed to use variables of type `char`.
  * Return: 0
  */
 
 int main(void)
 {
-	int i, d, k;
+	int i, j;
 
 	for (i = 0; i < 100; i++)
 	{
-		d = i / 10;
-		k = i % 10;
-
-		putchar(d + '0');
-		putchar(k + '0');
-
-		if (i < 99)
+		for (j = 0; j < 100; j++)
 		{
-			putchar(44);
-			putchar(32);
+			if (i < j)
+			{
+				putchar((i / 10) + 48);
+				putchar((i % 10) + 48);
+				putchar(' ');
+				putchar((j / 10) + 48);
+				putchar((j % 10) + 48);
+				if (i != 98 || j != 99)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+
 		}
 	}
 	putchar('\n');
-
 	return (0);
 }
