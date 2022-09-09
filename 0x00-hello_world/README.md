@@ -12,4 +12,6 @@ File 5-printf.c contains a C program that prints exactly "with proper grammar, b
 
 File 6-size.c contains a C program that prints the size of various types on the computer it is compiled and run on
 
+File 100-intel contains a script that generates the assembly code (Intel syntax) of a C code and save it in an output file
+
 
