@@ -10,4 +10,6 @@ File 4-print_alphabt.c contains a C program that prints the alphabet in lowercas
 
 File 5-print_numbers.c contains a C program that prints all single digit numbers of base 10 starting from 0, followed by a new line
 
+File 6-print_numberz.c contains a C program that prints all single digit numbers of base 10 starting from 0, followed by a new line, using putchar without using the char variable type
+
 
