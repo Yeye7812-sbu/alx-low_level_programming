@@ -18,4 +18,7 @@ File 8-print_base16.c contains a C program that prints all the numbers of base 1
 
 File 9-print_comb.c contains a C program that prints all possible combinations of single-digit numbers
 
+File 100-print_comb3.c contains a program that prints all possible different combinations of two digits
+
+
 
