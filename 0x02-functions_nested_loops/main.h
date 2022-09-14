@@ -19,7 +19,7 @@ int print_last_digit(int);
 
 void jack_bauer(void);
 
-void print_times_table(int n);
+void print_times_table(int i, int j, int k);
 
 int add(int a, int b);
 
