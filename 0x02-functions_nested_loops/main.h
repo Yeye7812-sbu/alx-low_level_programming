@@ -19,9 +19,9 @@ int print_last_digit(int);
 
 void jack_bauer(void);
 
-void 9-times_table(void);
+void print_times_table(void);
 
-int add(int, int);
+int add(int a, int b);
 
 void print_to_98(int n);
 
