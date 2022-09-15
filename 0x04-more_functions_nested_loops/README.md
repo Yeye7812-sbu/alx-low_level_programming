@@ -14,4 +14,6 @@ File 6-print_line.c contains a function that draws a straight line in the termin
 
 File 7-print_diagonal.c contains a function that draws a diagonal line on the terminal
 
+File 8-print_square.c contains a function that prints a square, followed by a new line
+
 
