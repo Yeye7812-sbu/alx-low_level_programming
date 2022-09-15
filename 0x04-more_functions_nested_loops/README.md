@@ -25,3 +25,5 @@ File 100-prime_factor.c contains a program that finds and prints the largest pri
 File 101-print_number.c contains a function that prints an integer using only _putchar().
 
 File _putchar.c contains the _putchar() function definition.
+
+File main.h is the header file containing all the function prototypes
