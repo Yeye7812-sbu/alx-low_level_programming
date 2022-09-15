@@ -18,4 +18,6 @@ File 8-print_square.c contains a function that prints a square, followed by a ne
 
 File 9-fizz_buzz.c contains a program that prints the numbers from 1 to 100, followed by a new line, but for multiples of three prints Fizz instead of the number and for the multiples of five prints Buzz
 
+File 10-print_triangle.c contains a function that prints a triangle, followed by a new line
+
 
