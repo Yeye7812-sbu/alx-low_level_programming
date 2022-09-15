@@ -12,4 +12,6 @@ File 5-more_numbers.c contains a function that prints 10 times the numbers, from
 
 File 6-print_line.c contains a function that draws a straight line in the terminal
 
+File 7-print_diagonal.c contains a function that draws a diagonal line on the terminal
+
 
