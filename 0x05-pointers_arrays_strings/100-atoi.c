@@ -6,6 +6,7 @@
 *
 * Return: the converted integer
 */
+
 int _atoi(char *s)
 {
 	int sign = 1;
