@@ -1,19 +1,16 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * str_concat - a function that concatenates two strings.
- *
- * @s1: input to string 1
- * @s2: input to string 2
- *
- * Return: NULL on faliure
-*/
+ * str_concat - concatenate two strings using malloc
+ * @s1: string 1
+ * @s2: string 2
+ * Return: pointer to concat string
+ */
 
 char *str_concat(char *s1, char *s2)
 {
-	int a = 0, b = 0;
-	int x, y;
-	char *s;
+	char *a;
+	int f, q, b, d;
 
 	if (s1 == NULL)
 		s1 = "";
@@ -21,32 +18,22 @@ char *str_concat(char *s1, char *s2)
 	if (s2 == NULL)
 		s2 = "";
 
-	/*find length of str1 & str2*/
-	while (s1[a] != '\0')
-		a++;
+	for (f = 0; s1[f] != '\0'; f++)
+		;
+	for (q = 0; s2[q] != '\0'; q++)
+		;
 
-	while (s2[b] != '\0')
-		b++;
+	a = malloc((f * sizeof(*s1)) + (q * sizeof(*s2)) + 1);
 
-	/*+1 for our end of string character*/
-	s = malloc((a * sizeof(char)) + ((b + 1) * sizeof(char)));
-
-	if (s == NULL)
+	if (a == NULL)
 		return (NULL);
 
-	/*add the first string to array s*/
-	for (x = 0; s1[x] != '\0'; x++)
-		s[x] = s1[x];
-
-	/*add the second string to array s*/
-	for (y = 0; s2[y] != '\0'; y++)
+	for (b= 0, d = 0; b < (f + q + 1); b++)
 	{
-		s[x] = s2[y];
-		x++;
+		if (b < f)
+			a[b] = s1[b];
+		else
+          		a[b] = s2[d++];
 	}
-
-	/*null terminate our new string*/
-	s[x] = '\0';
-
-	return (s);
+	return (a);
 }
