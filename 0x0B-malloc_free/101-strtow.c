@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * wordcount - get word count from string
