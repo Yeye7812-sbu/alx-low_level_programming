@@ -16,4 +16,9 @@ File 7-insert_dnodeint.c is a function that inserts a new node at a given positi
 
 File 8-delete_dnodeint.c is  a function that deletes the node at index index of a dlistint_t linked list.
 
+File 100-password contains the password for crackme4.
+
+File 102-result contains a palindromic number reads the same both ways.
+
+File 103-keygen.c contains a keygen for crackme5.
 
